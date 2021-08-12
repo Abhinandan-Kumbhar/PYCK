@@ -1,11 +1,11 @@
 ## Summary
 The objective of the project is to implement Keras framework for deep learning to train a model to classify different types of tumors.
-The weights of a pre-trained model called EfficientNetB1 is used and retrained on given dataset.
+The weights of a pre-trained model called EfficientNetB1 are used and retrained on given dataset.
 ## Implementation details
 **1. Clone the Github Repo to access the Dataset and import necessary Libraries**  
-    1.	The dataset from github repo was copied in local directories and import necessary libraries  
+        1.	The dataset from github repo was copied in local directories and import necessary libraries  
 **2. Creating local libraries to store the cropped images:**  
-    The os library was used to create directories where cropped images will be stored as training and testing sets  
+        The os library was used to create directories where cropped images will be stored as training and testing sets  
 **3. Create a Function to crop images:**  
     1.	The images in dataset are having extra plain black regions surrounding the actual image  
     2.	Since this extra region does not add any value and does not catch any important feature, we have to crop extra region  
