@@ -3,7 +3,7 @@ The objective of the project is to implement Keras framework for deep learning t
 The weights of a pre-trained model called EfficientNetB1 are used and retrained on given dataset.
 ## Implementation details
 **1. Clone the Github Repo to access the Dataset and import necessary Libraries**  
-        1.	The dataset from github repo was copied in local directories and import necessary libraries  
+        1. The dataset from github repo was copied in local directories and import necessary libraries  
 **2. Creating local libraries to store the cropped images:**  
         The os library was used to create directories where cropped images will be stored as training and testing sets  
 **3. Create a Function to crop images:**  
@@ -26,4 +26,4 @@ The weights of a pre-trained model called EfficientNetB1 are used and retrained 
 The below graph shows improvement in performance over different epochs. The green graph is for training and red is for validation  
  ![metric](https://github.com/Abhinandan-Kumbhar/PYCK/blob/main/pyck.png)
 ## Conclusion
-The traning dataset acccuracy is 94.7% and the test accuracy is also good i.e  90%. We can say the model is trained properly.
+The traning dataset acccuracy is **94.7%** and the test accuracy is also good i.e **90%**. We can say the model is trained properly.
